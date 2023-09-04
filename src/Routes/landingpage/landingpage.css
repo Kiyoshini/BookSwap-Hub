@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Marcellus&display=swap');
 
-.About_Section {
-  background-color: #a78d6c;
+.About_Section_Container {
+  background-color: #708090;
   position: relative;
   top: 75px;
-  height: 500px;
+  height: 700px;
   width: 100%;
 
   color: #222b3c;
@@ -12,37 +12,84 @@
 
   font-family: 'Lexend', sans-serif;
   padding: 10px
-  
 }
 
-.aboutTitle {
+.About_Section_Section_Text_Container {
   position: relative;
+  top: 70px;
   left: 100px;
+
+  max-width: 900px;
+
+}
+
+.aboutTitle_First {
+  color: #222b3c;
+  font-size: 45px;
+  font-weight: bolder;
+
+  padding-top: 50px;
+}
+
+.aboutTitle_Second, .aboutTitle_Third {
+  position: relative;
 
   color: #222b3c;
-  font-size: 30px;
-
-}
-
-.aboutInfo {
-  display: flex;
-  justify-content: center;
-  font-size: 24px;
-
-}
-
-.ourStoryContainer {
-  padding-top: 16px;
-
-  position: relative;
-  left: 100px;
-  max-width: 600px;
-
-  font-size: 24px;
+  font-size: 45px;
+  font-weight: bolder;
 }
 
 .ourStory {
-  color: rgb(230, 221, 209);
+  color: white;
   font-family: 'Lexend', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 35px;
+
+  max-width: 650px;
+  padding-top: 20px;
 }
+
+.bookCover_image {
+  position: relative;
+  bottom: 450px;
+  left: 1025px;
+
+  width: 650px;
+  border-radius: 10px;
+}
+
+.startConnecting_Button {
+  margin-top: 40px;
+  border: none;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.startConnecting_Button:hover {
+  background-color: #9fdaf0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* Second part of landing page */
+
+.ourMisson_Section {
+  position: relative;
+  top: 75px;
+
+  background-color: #000000c4;
+  width: 100%;
+  height: 700px;
+  opacity: 0.6;
+
+  z-index: 99;
+
+}
+
+.handingBooks_over {
+  position: relative;
+  top: 175px;
+  width: 100%;
+
+} 
+
